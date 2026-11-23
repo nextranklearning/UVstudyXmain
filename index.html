@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <title>𝑼𝑽𝒔𝒕𝒖𝒅𝒚𝑿</title>
+    <meta name="description" content="𝑼𝑽𝒔𝒕𝒖𝒅𝒚𝑿 - all your study apps in one place, for free.">
+    <meta name="theme-color" content="#05070f">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="logo-64.png">
+    <link rel="apple-touch-icon" href="logo-192.png">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="splash">
+        <img src="logo-192.png" alt="𝑼𝑽𝒔𝒕𝒖𝒅𝒚𝑿">
+        <h1>𝑼𝑽𝒔𝒕𝒖𝒅𝒚𝑿</h1>
+        <p>Learn anything, anywhere - for free</p>
+        <div class="bar"><i></i></div>
+    </div>
+
+    <div id="app">
+        <aside class="side">
+            <a class="brand" href="#/">
+      <img src="logo-64.png" alt="">
+      <div><h1>𝑼𝑽𝒔𝒕𝒖𝒅𝒚𝑿</h1></div>
+    </a>
+            <label class="search"><i class="ri-search-2-line"></i><input class="q" type="search" placeholder="Search apps..." autocomplete="off"></label>
+            <nav class="sidenav"></nav>
+            <div class="side-links">
+                <a href="https://t.me/class11freebook" target="_blank" rel="noopener"><i class="ri-telegram-fill"></i>Join Telegram</a>
+                <a href="https://whatsapp.com/channel/0029Vb9HMKTJf05TqvWPpc0k" target="_blank" rel="noopener"><i class="ri-whatsapp-fill"></i>Join WhatsApp</a>
+            </div>
+        </aside>
+
+        <main class="main">
+            <section id="view-home">
+                <header class="top">
+                    <a class="brand" href="#/"><img src="logo-64.png" alt=""><div><h1>𝑼𝑽𝒔𝒕𝒖𝒅𝒚𝑿</h1></div></a>
+                    <a class="avatar" href="https://t.me/class11freebook" target="_blank" rel="noopener" aria-label="Telegram"><img src="logo-64.png" alt=""></a>
+                </header>
+                <label class="search mobile-search"><i class="ri-search-2-line"></i><input class="q" type="search" placeholder="Search apps..." autocomplete="off"></label>
+
+                <div class="banner" id="banner" aria-roledescription="carousel">
+                    <div class="slides"></div>
+                    <div class="dots"></div>
+                </div>
+
+                <div class="sec-head">
+                    <h2 id="secTitle"></h2><span id="secCount"></span></div>
+                <div id="list"></div>
+                <div id="empty" hidden>
+                    <div class="ico"><i class="ri-search-eye-line"></i></div>
+                    <h3>No results found</h3>
+                    <p id="emptyMsg">Try a different search or filter.</p>
+                    <button id="clearBtn">Clear filters</button>
+                </div>
+            </section>
+
+            <section id="view-detail" hidden></section>
+        </main>
+
+        </div>
+
+    <div id="joinPop" class="jp" role="dialog" aria-modal="true" aria-labelledby="jpTitle" hidden>
+        <div class="jp-card">
+            <button class="jp-x" id="jpClose" type="button" aria-label="Close">&times;</button>
+            <img src="logo-192.png" alt="𝑼𝑽𝒔𝒕𝒖𝒅𝒚𝑿" class="jp-logo">
+            <h2 id="jpTitle">Join Our Community 🚀</h2>
+            <p>Stay updated with the latest batches, notes, PDFs and important updates.</p>
+            <a class="jp-btn tg" href="https://t.me/class11freebook" target="_blank" rel="noopener"><i class="ri-telegram-fill"></i> Join Telegram</a>
+            <a class="jp-btn wa" href="https://whatsapp.com/channel/0029Vb9HMKTJf05TqvWPpc0k" target="_blank" rel="noopener"><i class="ri-whatsapp-fill"></i> Join WhatsApp Channel</a>
+            
+        </div>
+    </div>
+
+    <div id="toast" role="status"></div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"372a8cb53a7646988647abb1e90ad58c","r":1,"spa":2}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
